@@ -6,8 +6,9 @@
 Get Username and Pass : Join My Discord Group
 ```
 ```
-https://github.com/TaliGanda/Sonic-Panel
+git clone https://github.com/TaliGanda/Sonic-Panel
 cd Sonic-Panel
+unzip proxy_ua.zip
 unzip node_modules.zip
 unzip data.zip
 npm i requests
