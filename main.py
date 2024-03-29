@@ -71,7 +71,7 @@ def mthd(screen):
 
 ###COPYRIGHT tool###
 def si():
-    print('       \x1b[38;2;0;255;255m[ \x1b[38;2;233;233;233mLogin : [{uname}] \x1b[38;2;0;255;255m] | \x1b[38;2;233;233;233mOnline User : [23] \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mOwner: [LostC2] \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mVersion: [2]')
+    print('       \x1b[38;2;0;255;255m[ \x1b[38;2;233;233;233mLogin : {uname} \x1b[38;2;0;255;255m] | \x1b[38;2;233;233;233mOnline User : [23] \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mOwner: [LostC2] \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mVersion: [2]')
 
 ###My ip####
 def mip():
@@ -139,7 +139,7 @@ def meth():
 """)
 
 def menu():
-    sys.stdout.write(f"\x1b]2;Kata DDoS | Plant: [25$] | Online: [{online}] | Methods: [23] | Expiry: [30] | Username: [{uname}]\x07")
+    sys.stdout.write(f"\x1b]2;Lost C2 | Plant: [25$] | Online: [{online}] | Methods: [23] | Expiry: [30] | Username: [{uname}]\x07")
     os.system('cls' if os.name == 'nt' else 'clear')
     si()
     print(f"""
@@ -179,7 +179,7 @@ def main():
         elif cnc == "HELP" or cnc == "Help" or cnc == "help":
             help()
         elif cnc =="OWNER" or cnc == "Owner" or cnc == "owner":
-            print("\x1b[38;2;0;255;255mGadaLuBau")
+            print("\x1b[38;2;0;255;255mLost Lex")
         elif cnc =="ADMIN" or cnc == "Admin" or cnc == "admin":
             print("")
         
@@ -605,12 +605,12 @@ def main():
             
 def login():
     user = "C2"
-    passwd = "C2"
+    passwd = ""
     username = input("⚡ Username: ")
     password = getpass.getpass(prompt='⚡ Password: ')
     if username != user or password != passwd:
         print("")
-        print("⚡ Wrong, Get Username and Password at: https://discord.gg/")
+        print("⚡ BUY BITCH!!!!!!!!!!!!!!, NGERTI BELI GAK MRMRK?")
         sys.exit(1)
     elif username == user and password == passwd:
         print("⚡ Welcome Bitch!!")
